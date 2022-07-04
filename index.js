@@ -14,12 +14,12 @@ function destructivelyPrependCat(name){
 function destructivelyRemoveLastCat(name){
     console.log("name",name)
  cats.pop(name);
- //=>["Bob","Milo","Otis","Garfield"]removes the last element (at the end)
+ //=>["Bob","Milo","Otis","Garfield"]removes the last element at the end
 }
 function destructivelyRemoveFirstCat(name){
     console.log(name)
  cats.shift(name);
- //=>["Bob","Milo","Otis","Garfield"]removes the first elememt (at the beginning)
+ //=>["Bob","Milo","Otis","Garfield"]removes the first elememt at the beginning
 }
 function appendCat(name){
     const cats = [ "Milo","Otis","Garfield", ];
@@ -45,3 +45,14 @@ function removeFirstCat(name){
     
     //=>["Milo","Otis","Garfield"]remove element in the back leaving the cats array unchanged
 }
+
+
+
+
+
+
+
+
+
+
+
