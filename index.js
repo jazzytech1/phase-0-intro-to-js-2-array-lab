@@ -45,3 +45,14 @@ function removeFirstCat(name){
     
     //=>["Milo","Otis","Garfield"]remove element in the back leaving the cats array unchanged
 }
+
+
+
+
+
+
+
+
+
+
+
